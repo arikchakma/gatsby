@@ -1,7 +1,5 @@
 {
 	// config related to code formatting
-	"editor.letterSpacing": -0.15,
-	"editor.fontWeight": "400",
 	"editor.hover.enabled": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
@@ -24,5 +22,6 @@
 	"emmet.triggerExpansionOnTab": true,
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
-	}
+	},
+	"workbench.colorTheme": "Material Theme Darker",
 }
