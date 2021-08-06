@@ -39,7 +39,14 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
+1.  **Gatsby Site Structure** <br>
+    For any site, you'll need 3 main folders:
+    ### Components: 
+    Put all the re-usable elements such as <b>buttons, sections, layout</b> and <b>styles</b>. It is best to organize into subfolders for their respective category. That's because you'll most likely end up with hundreds of components. In <b>components/layout</b>: you'll find the header and footer as well as the <b>layout.css</b>. This is where you can set your global font, links and reset your CSS if needed.
+    ### Pages: 
+    Every file here will create a new page automatically. For example, <b>pricing.tsx</b> will route to <b>/pricing</b>. The only exception is that index.tsx will route to the main page.
+    ### Images:
+    To simplify the implementation of local images, we made a folder at the root, in <b>/static/images</b>. These images will automatically be included in the public site using the url <b>/images/your-image.svg</b>.
 ## 🚀 Quick start (Gatsby Cloud)
 
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
