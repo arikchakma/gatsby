@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new ArikkoV1 https://github.com/arikchakma/gatsby.git
+    gatsby new ArikkoV1 https://github.com/arikchakma/gatsby
     ```
 
 1.  **Start developing.**
@@ -28,7 +28,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd ArikkoV1/
+    cd ArikkoV1
+    npm i
     gatsby develop
     ```
 
